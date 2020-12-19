@@ -48,7 +48,6 @@ a {
 }
 address {
   width: 231px;
-  padding-bottom: 60px;
   color: var(--secondary-accent-color);
   line-height: 1.7;
   font-style: normal;
@@ -232,11 +231,12 @@ header .contaner {
 /*footer*/
 footer {
   display: block;
+  padding-bottom: 60px;
   background-color: var(--dark-background-color);
   text-decoration: none;
+  padding-top: 60px;
 }
 .logo-footer {
-  padding-top: 60px;
   margin-bottom: 20px;
   color: var(--secondary-accent-color);
   font-family: "Raleway", sans-serif;
