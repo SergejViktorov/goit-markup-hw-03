@@ -47,11 +47,13 @@ a {
   text-decoration: none;
 }
 address {
+  display: flex;
+  flex-direction: column;
   width: 231px;
   color: var(--secondary-accent-color);
   line-height: 1.7;
   font-style: normal;
-  display: block;
+
   width: 231px;
 }
 .visually-hidden {
@@ -188,7 +190,7 @@ header .contaner {
   margin-right: 30px;
 }
 .title {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -208,9 +210,16 @@ header .contaner {
   margin-right: 30px;
 }
 .command-list .item {
+  display: block;
   border-radius: 0px 0px 4px 4px;
   width: 270px;
   background-color: var(--secondary-accent-color);
+}
+.comand-box {
+  border: 1px solid transparent;
+  border-radius: 0px 0px 4px 4px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .command {
   padding-bottom: 94px;
@@ -223,12 +232,10 @@ header .contaner {
 
 .name {
   font-weight: 500;
-  padding-top: 30px;
   padding-bottom: 10px;
 }
 .position {
   color: var(--secondary-text-color);
-  padding-bottom: 30px;
 }
 
 /*footer*/
@@ -240,7 +247,6 @@ footer {
   text-decoration: none;
 }
 .logo-footer {
-  margin-bottom: 20px;
   color: var(--secondary-accent-color);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -248,14 +254,17 @@ footer {
 }
 .link .logo-footer {
   display: block;
+  margin-bottom: 20px;
 }
 .address-link {
   color: var(--footer-contacts);
-  padding-top: 9px;
 }
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
+}
+address .item:not(:last-child) {
+  margin-bottom: 9px;
 }
 /* portfolio */
 .portfolio {
