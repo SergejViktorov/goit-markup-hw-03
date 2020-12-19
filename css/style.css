@@ -47,6 +47,7 @@ a {
   text-decoration: none;
 }
 address {
+  width: 231px;
   padding-bottom: 60px;
   color: var(--secondary-accent-color);
   line-height: 1.7;
@@ -63,8 +64,6 @@ address {
 }
 /* header */
 .contaner {
-  display: block;
-  align-items: center;
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
@@ -249,10 +248,15 @@ footer {
 }
 .address-link {
   color: var(--footer-contacts);
+  padding-top: 9px;
 }
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
+}
+/* portfolio */
+.portfolio-header {
+  border: 1px solid #ececec;
 }
 .portfolio .container {
   margin-top: 94px;
@@ -303,6 +307,14 @@ footer {
 .flex-container .list {
   width: 370px;
 }
+.title-box {
+  display: block;
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+}
+.flex-img {
+  display: block;
+}
 .title-partfolio {
   font-weight: 700;
   font-size: 18px;
@@ -315,4 +327,5 @@ footer {
   font-size: 16px;
   line-height: 1.9;
 }
+
 /* афаф */
