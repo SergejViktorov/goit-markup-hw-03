@@ -123,6 +123,7 @@ header .contaner {
 
 /**hero**/
 .hero {
+  margin-bottom: 94px;
   display: block;
   background: var(--dark-background-color);
   color: var(--secondary-accent-color);
@@ -157,10 +158,11 @@ header .contaner {
   letter-spacing: 0.06em;
 }
 /* секция преимущество */
+.details {
+  margin-bottom: 94px;
+}
 .list-details {
   display: flex;
-  padding-bottom: 94px;
-  padding-top: 94px;
 }
 .list-details .item {
   width: 270px;
@@ -170,7 +172,7 @@ header .contaner {
 }
 /* activyty */
 .activity {
-  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 .title-section {
   margin-bottom: 50px;
@@ -233,9 +235,9 @@ header .contaner {
 footer {
   display: block;
   padding-bottom: 60px;
+  padding-top: 60px;
   background-color: var(--dark-background-color);
   text-decoration: none;
-  padding-top: 60px;
 }
 .logo-footer {
   margin-bottom: 20px;
@@ -256,11 +258,14 @@ footer {
   color: var(--accent-color);
 }
 /* portfolio */
+.portfolio {
+  margin-bottom: 94px;
+  margin-top: 94px;
+}
 .portfolio-header {
   border: 1px solid #ececec;
 }
 .portfolio .container {
-  margin-top: 94px;
 }
 
 /* список кнопок портфолио*/
@@ -271,7 +276,6 @@ footer {
   width: 611px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 87px;
   margin-bottom: 56px;
 }
 .buttons-menu .button {
@@ -297,7 +301,6 @@ footer {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
 }
 .flex-container .list:not(:nth-child(3n)) {
   margin-right: 30px;
