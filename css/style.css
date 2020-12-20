@@ -137,8 +137,6 @@ header .contaner {
   text-align: center;
   font-weight: 400;
 }
-.hero .box-title {
-}
 .title-hero {
   margin-right: auto;
   margin-left: auto;
@@ -288,9 +286,6 @@ address .item:not(:last-child) {
 .portfolio-header {
   border: 1px solid #ececec;
 }
-.portfolio .container {
-}
-
 /* список кнопок портфолио*/
 .buttons-menu {
   display: flex;
@@ -300,13 +295,14 @@ address .item:not(:last-child) {
   margin-right: auto;
   margin-bottom: 56px;
 }
-.buttons-menu .button {
+.button + .button {
   margin-right: 8px;
 }
 .button {
   padding: 6px 22px;
   border-radius: 4px;
   border-color: transparent;
+  outline: transparent;
   cursor: pointer;
   color: var(--primery-text-color);
   background-color: var(--lite-background-color);
@@ -314,7 +310,6 @@ address .item:not(:last-child) {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  outline: transparent;
 }
 .button:hover,
 .button:focus {
