@@ -293,7 +293,7 @@ address .item:not(:last-child) {
   align-items: center;
   margin-bottom: 56px;
 }
-.button {
+.buttons-menu .item:not(:last-child) {
   margin-right: 8px;
 }
 .button {
