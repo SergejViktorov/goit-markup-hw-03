@@ -291,11 +291,9 @@ address .item:not(:last-child) {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 56px;
 }
-.button + .button {
+.button {
   margin-right: 8px;
 }
 .button {
