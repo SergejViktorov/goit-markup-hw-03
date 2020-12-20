@@ -129,6 +129,8 @@ header .contaner {
 
 /**hero**/
 .hero {
+  padding-bottom: 200px;
+  padding-top: 200px;
   display: block;
   background: var(--dark-background-color);
   color: var(--secondary-accent-color);
@@ -136,7 +138,6 @@ header .contaner {
   font-weight: 400;
 }
 .hero .box-title {
-  padding-top: 200px;
 }
 .title-hero {
   margin-right: auto;
@@ -150,9 +151,6 @@ header .contaner {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-}
-.button-box {
-  padding-bottom: 200px;
 }
 .title-button {
   padding: 10px 32px;
@@ -169,12 +167,9 @@ header .contaner {
 }
 /* секция преимущество */
 .details {
-  margin-bottom: ;
+  padding: 94px 0px;
 }
-.details-box {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .list-details {
   display: flex;
 }
@@ -185,10 +180,8 @@ header .contaner {
   margin-right: 30px;
 }
 /* activyty */
-.activity-box {
-  padding-bottom: 94px;
-}
 .activity {
+  padding-bottom: 94px;
 }
 .activity-title {
   margin-bottom: 50px;
@@ -220,8 +213,14 @@ header .contaner {
 }
 
 /* контакты команды */
+.command {
+  padding: 94px 0px;
+  background: var(--lite-background-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
 .command-title {
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 .command-list {
@@ -242,12 +241,6 @@ header .contaner {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.command {
-  background: var(--lite-background-color);
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-}
 
 .name {
   font-weight: 500;
@@ -256,15 +249,12 @@ header .contaner {
 .position {
   color: var(--secondary-text-color);
 }
-.command-section {
-  padding-bottom: 94px;
-}
-
 /*footer*/
-footer {
+.footer {
   display: block;
   background-color: var(--dark-background-color);
   text-decoration: none;
+  padding: 60px 0px;
 }
 .logo-footer {
   color: var(--secondary-accent-color);
@@ -276,11 +266,7 @@ footer {
   display: block;
 }
 .footer-box {
-  padding-top: 60px;
   margin-bottom: 20px;
-}
-.address-box {
-  padding-bottom: 60px;
 }
 .address-link {
   color: var(--footer-contacts);
@@ -294,8 +280,8 @@ address .item:not(:last-child) {
 }
 /* portfolio */
 .portfolio {
-  margin-bottom: 94px;
-  margin-top: 94px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .portfolio-header {
   border: 1px solid #ececec;
